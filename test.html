@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<script>
+			async function test(params) {
+				let response = await fetch('https://horoscope-api.riturajshakti.workers.dev/horoscope', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({
+						zodiac: 'capricorn',
+						language: 'english',
+						date: '2024-10-03',
+						period: 'today',
+						apiKey: 'Sd_12547455dhseunhT_ksdfln',
+						domainSecretCode: '8f9da951515975a3fbccc9fd582eb7bf'
+					}),
+				})
+
+				let data = await response.json()
+				console.log(data)
+			}
+
+			test()
+		</script>
+	</body>
+</html>
