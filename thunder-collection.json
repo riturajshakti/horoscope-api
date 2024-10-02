@@ -1,0 +1,42 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Horoscope API",
+    "dateExported": "2024-10-02T18:48:24.070Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "265981c0-1e97-4448-adc0-759befd034b6",
+            "colId": "6671fb21-60f1-4bdc-a1c0-4928d551ee22",
+            "containerId": "",
+            "name": "/",
+            "url": "{{local}}",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-10-02T17:55:04.076Z",
+            "modified": "2024-10-02T17:55:10.287Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cf510540-1ea5-4a95-9f52-09ab8d0cc5e5",
+            "colId": "6671fb21-60f1-4bdc-a1c0-4928d551ee22",
+            "containerId": "",
+            "name": "/horoscope",
+            "url": "{{live}}/horoscope",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-10-02T17:57:16.604Z",
+            "modified": "2024-10-02T18:41:43.901Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"zodiac\": \"capricorn\",\n  \"language\": \"english\",\n  \"date\": \"2024-10-03\",\n  \"period\": \"today\",\n  \"apiKey\": \"Sd_12547455dhseunhT_ksdfln\",\n  \"domainSecretCode\": \"8f9da951515975a3fbccc9fd582eb7bf\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

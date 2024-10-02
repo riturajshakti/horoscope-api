@@ -1,0 +1,24 @@
+{
+  "name": "horoscope-api",
+  "_scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "scripts": {
+    "dev": "wrangler dev --remote --port 5000",
+    "deploy": "wrangler deploy --minify",
+    "generate": "wrangler deploy --outdir build/ --dry-run",
+    "dev-offline": "wrangler dev --port 5000",
+    "start": "wrangler dev",
+    "types": "wrangler types"
+  },
+  "dependencies": {
+    "hono": "^4.6.3",
+    "super-easy-validator": "^0.8.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240925.0",
+    "@types/node": "^22.7.4",
+    "wrangler": "^3.79.0"
+  }
+}
