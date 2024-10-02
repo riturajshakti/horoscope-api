@@ -71,7 +71,9 @@
 - If `date` is not given, then it assumes today's date
 - If `period` is not given then it assumes `today`
 - If `language` is not given then it assumes `english`
-- If `apiKey` and `domainSecretCode` is not given then it assumes their default value. **NOTE:** These keys can change any time in future, so its better to always send keys from your side
+- If `apiKey` and `domainSecretCode` is not given then it assumes their default value.
+
+**NOTE:** These keys can change any time in future, so its better to always send keys from your side
 
 ---
 
